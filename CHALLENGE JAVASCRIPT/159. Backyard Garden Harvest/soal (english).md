@@ -35,23 +35,6 @@ The function should combine the vegetables from both baskets into a single array
 
 ---
 
-## 🧠 Example
-
-```javascript
-function harvestVegetables(carrotBasket, tomatoBasket) {
-  return [...carrotBasket, ...tomatoBasket];
-}
-
-// Example usage:
-const carrots = ["carrot1", "carrot2"];
-const tomatoes = ["tomato1", "tomato2"];
-
-console.log(harvestVegetables(carrots, tomatoes));
-// Output: ["carrot1", "carrot2", "tomato1", "tomato2"]
-```
-
----
-
 ## 🌱 Summary
 
 * Combine two arrays into one harvest list.
