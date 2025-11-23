@@ -27,8 +27,11 @@ function fishObservation(unusualFish, waterTemp) {
   
   // Membuat laporan observasi dengan format string template
   const report = `Good morning! Today's mountain stream observation:
+
 Water Temperature: ${waterTemp}°C
+
 Observed Fish Species: ${allFish.join(', ')}
+
 Fun Fact: Mountain stream ecosystems are highly sensitive to environmental changes and serve as important indicators of overall watershed health.`;
   
   // Mengembalikan laporan observasi
